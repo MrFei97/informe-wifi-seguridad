@@ -1,6 +1,6 @@
-#Informe de auditoria de Red Wi-Fi Insegura
+# Informe de auditoria de Red Wi-Fi Insegura
 
-##Introducción.
+## Introducción.
 
 El objetivo de esta practica es analizar los riesgos de seguridad asociados al uso de redes Wi-Fi publicas, comprender las diferencias entre HTTP y HTTPS y explicar como una VPN puede contribuir a proteger la información transmitida
 
@@ -17,7 +17,7 @@ Sitio Analizado.
 
 El sitio fue seleccionado porque permite realizar conexiones HTTP sin redirigir automáticamente al usuario hacia HTTPS.
 
-#Evidencia observada
+# Evidencia observada
 
 Durante el análisis de tráfico se identificaron los siguientes elementos:
 
@@ -37,7 +37,7 @@ También es posible observar información adicional en los encabezados HTTP, com
 
 La comunicación HTTP no cifra el contenido de la solicitud, por lo que puede ser inspeccionada por terceros que tengan acceso al tráfico de red.
 
-#Riesgos encontrados.
+# Riesgos encontrados.
 
 	-La navegación mediante HTTP en una red Wi-Fi pública presenta distintos riesgos de seguridad:
 
@@ -51,7 +51,7 @@ La comunicación HTTP no cifra el contenido de la solicitud, por lo que puede se
 
 Es importante destacar que HTTPS reduce considerablemente estos riesgos al cifrar la comunicación entre el navegador y el servidor.
 
-#¿Cómo ayuda una VPN?
+# ¿Cómo ayuda una VPN?
 
 Una VPN protege la conexión mediante un túnel cifrado entre el dispositivo del usuario y el servidor VPN.
 
@@ -68,11 +68,11 @@ Sus principales funciones son:
 Una VPN complementa la seguridad de la conexión, pero no reemplaza HTTPS ni garantiza protección absoluta frente a todas las amenazas.
 
 
-#Las 3 Reglas de Oro para utilizar redes Wi-Fi públicas
+# Las 3 Reglas de Oro para utilizar redes Wi-Fi públicas
 
 	-Evitar operaciones sensibles: No acceder a cuentas bancarias ni realizar operaciones importantes mediante redes públicas que no sean de confianza.
 
-	**-Utilizar conexiones seguras:** Comprobar que los sitios web utilicen HTTPS y, cuando sea necesario, utilizar una VPN confiable.
+	-Utilizar conexiones seguras: Comprobar que los sitios web utilicen HTTPS y, cuando sea necesario, utilizar una VPN confiable.
 
-	**-Desconfiar de redes desconocidas:** Verificar el nombre de la red con el establecimiento, evitar conectarse a puntos de acceso sospechosos y desactivar la conexión automática a redes públicas.
+	-Desconfiar de redes desconocidas: Verificar el nombre de la red con el establecimiento, evitar conectarse a puntos de acceso sospechosos y desactivar la conexión automática a redes públicas.
 
