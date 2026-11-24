@@ -8,12 +8,12 @@ Para realizar el análisis se utilizo una captura de trafico de red y se examino
 
 Sitio Analizado.
 
-	**http://neverssl.com**
-	**Host: neverssl.com**
-	**Protocolo: HTTP**
-	**Método HTTP: GET**
-	**Recuso Solicitado: /**
-	**Respuesta del servidor: 200 OK**
+	http://neverssl.com
+	Host: neverssl.com
+	Protocolo: HTTP
+	Método HTTP: GET
+	Recuso Solicitado: /
+	Respuesta del servidor: 200 OK
 
 El sitio fue seleccionado porque permite realizar conexiones HTTP sin redirigir automáticamente al usuario hacia HTTPS.
 
@@ -57,20 +57,20 @@ Una VPN protege la conexión mediante un túnel cifrado entre el dispositivo del
 
 Sus principales funciones son:
 
-	**-Cifrado:** La información transmitida dentro del túnel se convierte en datos ilegibles para terceros que intenten interceptarla.
+	-Cifrado: La información transmitida dentro del túnel se convierte en datos ilegibles para terceros que intenten interceptarla.
 
-	**-Encapsulamiento:** Los paquetes originales se introducen dentro de otros paquetes para transportarlos mediante el túnel VPN.
+	-Encapsulamiento: Los paquetes originales se introducen dentro de otros paquetes para transportarlos mediante el túnel VPN.
 
-	**-Protección del tráfico:** Reduce la posibilidad de que otros usuarios de la red pública puedan inspeccionar directamente la comunicación protegida.
+	-Protección del tráfico: Reduce la posibilidad de que otros usuarios de la red pública puedan inspeccionar directamente la comunicación protegida.
 
-	**-Privacidad:** Oculta el tráfico original frente a otros dispositivos de la red local, aunque el proveedor VPN sigue siendo un intermediario de confianza.
+	-Privacidad: Oculta el tráfico original frente a otros dispositivos de la red local, aunque el proveedor VPN sigue siendo un intermediario de confianza.
 
 Una VPN complementa la seguridad de la conexión, pero no reemplaza HTTPS ni garantiza protección absoluta frente a todas las amenazas.
 
 
 #Las 3 Reglas de Oro para utilizar redes Wi-Fi públicas
 
-	**-Evitar operaciones sensibles:** No acceder a cuentas bancarias ni realizar operaciones importantes mediante redes públicas que no sean de confianza.
+	-Evitar operaciones sensibles: No acceder a cuentas bancarias ni realizar operaciones importantes mediante redes públicas que no sean de confianza.
 
 	**-Utilizar conexiones seguras:** Comprobar que los sitios web utilicen HTTPS y, cuando sea necesario, utilizar una VPN confiable.
 
