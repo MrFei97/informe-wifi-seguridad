@@ -27,7 +27,7 @@ Durante el análisis de tráfico se identificaron los siguientes elementos:
 
 	Host		neverssl.com
 
-	URI			/
+	URI		/
 
 	Protocolo	HTTP
 
