@@ -21,17 +21,17 @@ El sitio fue seleccionado porque permite realizar conexiones HTTP sin redirigir 
 
 Durante el análisis de tráfico se identificaron los siguientes elementos:
 
-Elemento	Resultado
+	Elemento	Resultado
 
-Método		GET
+	Método		GET
 
-Host		neverssl.com
+	Host		neverssl.com
 
-URI		/
+	URI			/
 
-Protocolo	HTTP
+	Protocolo	HTTP
 
-Respuesta	200 OK
+	Respuesta	200 OK
 
 También es posible observar información adicional en los encabezados HTTP, como el User-Agent, que identifica el navegador utilizado, y otros datos asociados a la solicitud.
 
